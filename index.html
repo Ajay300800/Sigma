@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Tut-8 Form</title>
   </head>
   <body>
@@ -13,7 +14,28 @@
     <div>
       <form>
         <title>Basic Information</title>
-        <input type="text" />
+        <label for="Name">Name</label>
+        <input
+          type="text"
+          id="Name"
+          name="your name"
+          placeholder="Enter Your Name Here"
+        />
+        <label for="City">City</label>
+        <input
+          type="text"
+          id="City"
+          name="City"
+          placeholder="Enter Your City Here"
+        />
+        <label for="Pincode">Pincode</label>
+        <input
+          type="number"
+          id="Pincode"
+          name="Pincode"
+          placeholder="Enter Your Pincode Here"
+        />
+        <input type="submit" />
       </form>
     </div>
   </body>
